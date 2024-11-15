@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bit Academy Dagdoelen</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="icon" href="biticon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body class="is-flex is-flex-direction-column">
+
+    <!-- Header -->
+    <section class="section has-background-primary-light py-5">
+        <div class="container">
+            <h1 class="title has-text-centered has-text-weight-bold">Bit Academy Dagdoelen</h1>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="section is-flex-grow-1">
+        <div class="container">
+            <div class="columns">
+
+                <!-- Dagdoelen Paneel -->
+                <div class="column is-5">
+                    <div class="box p-6">
+                        <h2 class="title is-4 has-text-centered">Mijn Dagdoelen</h2>
+                        <form>
+                            <div class="field">
+                                <label class="label">Dagdoel voor vandaag</label>
+                                <div class="control">
+                                    <input class="input is-medium" type="text" placeholder="Je dagdoel hier" />
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="label">Tijd besteed aan dagdoel (in uren)</label>
+                                <div class="control">
+                                    <input class="input is-medium" type="number" placeholder="Bijv. 2" />
+                                </div>
+                            </div>
+
+                            <div class="field has-text-centered mt-4">
+                                <button class="button is-primary is-fullwidth is-medium">Opslaan</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Overzicht dagdoelen/coaches -->
+                <div class="column is-7">
+                    <!-- Overzicht Dagdoelen Box -->
+                    <div class="box p-5">
+                        <h2 class="title is-4 has-text-centered">Overzicht Dagdoelen</h2>
+                        <article class="media">
+                            <div class="media-left">
+                                <figure class="image is-64x64">
+                                    <img src="https://bulma.io/assets/images/placeholders/128x128.png"
+                                        alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <strong>Dagdoel Vandaag</strong> <small>12/11/2024</small>
+                                        <br />
+                                        <strong>Jouw doelen voor vandaag:</strong>
+                                    <ul>
+                                        <li>Doel 1: Wiskunde afronden (2 uur)</li>
+                                        <li>Doel 2: Engels afronden (5 uur)</li>
+                                    </ul>
+                                    </p>
+                                </div>
+                                <nav class="level is-mobile">
+                                    <div class="level-left">
+                                        <a class="level-item icon-text has-text-info">
+                                            <span class="icon">
+                                                <img src="pen.png" alt="">
+                                            </span>
+                                            <span>Wijzigen</span>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Coaches Box -->
+                    <div class="box p-5 mt-4">
+                        <h2 class="title is-4 has-text-centered">Dagdoelen Beoordelen</h2>
+                        <article class="media">
+                            <div class="media-left">
+                                <figure class="image is-64x64">
+                                    <img src="https://bulma.io/assets/images/placeholders/128x128.png" alt="Image" />
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <small>@Student Naam 12/11/2024</small>
+                                        <br />
+                                        <strong>Jouw doelen voor vandaag:</strong>
+                                    <ul>
+                                        <li>Doel 1: Wiskunde afronden (2 uur)</li>
+                                        <li>Doel 2: Engels afronden (5 uur)</li>
+                                    </ul>
+                                    </p>
+                                </div>
+                                <nav class="level is-mobile">
+                                    <div class="level-left">
+                                        <span class="icon-text has-text-success">
+                                            <span class="icon">
+                                                <i class="fas fa-check-square"></i>
+                                            </span>
+                                            <span>Goedkeuren</span>
+                                        </span>
+
+                                        <span class="icon-text has-text-danger">
+                                            <span class="icon">
+                                                <i class="fas fa-ban"></i>
+                                            </span>
+                                            <span>Afkeuren</span>
+                                        </span>
+                                    </div>
+                                </nav>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer has-background-primary-light py-6">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Bit Academy Dagdoelen © 2024</strong>
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
